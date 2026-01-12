@@ -1,0 +1,27 @@
+component Movement {
+  FP MoveSpeed;
+  FP MaxSpeed;
+  FP RotationSpeed;
+}
+
+component Health {
+  FP Current;
+  FP Max;
+  bool IsDead;
+}
+
+singleton component GameSession {
+    Boolean IsGameOver;
+}
+
+singleton component FlowFieldData {
+    // 0-7 - направления, 255 - препятствие
+    array<Byte>[2500] Grid; 
+    
+    FPVector3 TargetPosition;
+    FPVector3 GridOrigin;
+    Int32 GridSize;
+    FP CellSize;
+    Boolean IsValid;
+    Int32 LastUpdateTick;
+}

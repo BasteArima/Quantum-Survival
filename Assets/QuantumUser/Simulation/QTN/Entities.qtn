@@ -1,0 +1,16 @@
+component Enemy {
+    FP DamagePerSecond;
+    FP AttackRange;
+    FP DamageAccumulator;
+}
+
+component Coin {
+}
+
+component Bullet {
+    FP Damage;
+    FP Speed;
+    FPVector3 Direction;
+    FP Lifetime;
+    bool DestroyOnHit;
+}

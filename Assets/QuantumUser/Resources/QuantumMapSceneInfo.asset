@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef11b24dd8b636479cc530200469ee2, type: 3}
+  m_Name: QuantumMapSceneInfo
+  m_EditorClassIdentifier: Quantum.Unity::Quantum.QuantumMenuSceneInfo
+  Name: QuantumGameScene
+  ScenePath: Assets/QuantumUser/Scenes/QuantumGameScene.unity
+  Preview: {fileID: 0}
+  IsHidden: 0
+  RuntimeConfig:
+    Seed: 0
+    Map:
+      Id:
+        Value: 326212878633141962
+    SimulationConfig:
+      Id:
+        Value: 831359890621129296
+    SystemsConfig:
+      Id:
+        Value: 3903693583207001770
+    PlayerMaxHealth:
+      RawValue: 6553600
+    PlayerMoveSpeed:
+      RawValue: 327680
+    EnemyMaxHealth:
+      RawValue: 6553600
+    EnemyMoveSpeed:
+      RawValue: 196608
+    EnemyDamagePerSecond:
+      RawValue: 327680
+    EnemyAttackRange:
+      RawValue: 98304
+    EnemySpawnInterval:
+      RawValue: 458752
+    EnemySpawnDistance:
+      RawValue: 983040
+    EnemyPrototype:
+      Id:
+        Value: 1453724099507256446
+    CoinPrototype:
+      Id:
+        Value: 1362955388454095449
+    CoinDropChance: 50
+    BulletPrototype:
+      Id:
+        Value: 1531583568065593336
+    BulletSpeed:
+      RawValue: 983040
+    BulletDamage:
+      RawValue: 6553600
+    BulletLifetime:
+      RawValue: 327680
+    PlayerShootCooldown:
+      RawValue: 65536

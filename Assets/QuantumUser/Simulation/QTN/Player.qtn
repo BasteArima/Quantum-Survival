@@ -1,0 +1,8 @@
+component Player {
+  int CoinsCollected;
+  FP ShootCooldownTimer;
+}
+
+component PlayerLink {
+    PlayerRef Player;
+}

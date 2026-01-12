@@ -1,0 +1,6 @@
+input {
+  FPVector2 Direction;
+}
+
+event OnGameOver{
+}
